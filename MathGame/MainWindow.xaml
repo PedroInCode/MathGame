@@ -20,22 +20,23 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="-1.462,0.476"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="0.552,0.528"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="0.345,1.276"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="0.397,0.528"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="-1.462,0.476" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="0.552,0.528" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="0.345,1.276" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI" RenderTransformOrigin="0.397,0.528" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" TextWrapping="Wrap" FontFamily="Segoe UI" MouseDown ="TextBlock_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed time" VerticalAlignment="Center" RenderTransformOrigin="-0.798,0.489" FontSize="36" Grid.ColumnSpan="3" MouseDown="TimeTextBlock_MouseDown"/>
 
     </Grid>
 </Window>
